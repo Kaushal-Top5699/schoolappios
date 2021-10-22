@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "819-8194226_blackjack-instant-game-logo-graphic-design.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "819-8194226_blackjack-instant-game-logo-graphic-design@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "819-8194226_blackjack-instant-game-logo-graphic-design@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

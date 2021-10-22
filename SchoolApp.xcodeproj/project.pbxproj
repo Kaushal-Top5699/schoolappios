@@ -3,27 +3,81 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		9671E45026EF442600EB454F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671E44F26EF442600EB454F /* AppDelegate.swift */; };
 		9671E45226EF442600EB454F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671E45126EF442600EB454F /* SceneDelegate.swift */; };
-		9671E45426EF442600EB454F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671E45326EF442600EB454F /* ViewController.swift */; };
+		9671E45426EF442600EB454F /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671E45326EF442600EB454F /* StartController.swift */; };
 		9671E45726EF442600EB454F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9671E45526EF442600EB454F /* Main.storyboard */; };
 		9671E45926EF442C00EB454F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9671E45826EF442C00EB454F /* Assets.xcassets */; };
 		9671E45C26EF442C00EB454F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9671E45A26EF442C00EB454F /* LaunchScreen.storyboard */; };
+		9671E46526F06B9700EB454F /* UIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671E46426F06B9700EB454F /* UIManager.swift */; };
+		9671E46826F06C8A00EB454F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671E46726F06C8A00EB454F /* LoginVC.swift */; };
+		9671E46A26F06C9800EB454F /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671E46926F06C9800EB454F /* SignupVC.swift */; };
+		9671E46F26F0744500EB454F /* AddLogoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671E46E26F0744500EB454F /* AddLogoVC.swift */; };
+		9671E47326F074A200EB454F /* AddDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671E47226F074A200EB454F /* AddDetailsVC.swift */; };
+		9671E47526F074AD00EB454F /* AddAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671E47426F074AD00EB454F /* AddAddressVC.swift */; };
+		9671E47726F074D600EB454F /* AddMembersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671E47626F074D600EB454F /* AddMembersVC.swift */; };
+		9671E47926F0751400EB454F /* SelectProvinceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671E47826F0751400EB454F /* SelectProvinceVC.swift */; };
+		9671E47C26F0902700EB454F /* HomeScreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671E47A26F0902600EB454F /* HomeScreenCell.swift */; };
+		9671E47D26F0902700EB454F /* HomeScreenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9671E47B26F0902600EB454F /* HomeScreenCell.xib */; };
+		9671E48026F0914100EB454F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671E47F26F0914000EB454F /* HomeVC.swift */; };
+		9671E48226F0936600EB454F /* HomeCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671E48126F0936600EB454F /* HomeCellModel.swift */; };
+		9671E48526F09E1100EB454F /* MClassCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671E48326F09E1100EB454F /* MClassCell.swift */; };
+		9671E48626F09E1100EB454F /* MClassCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9671E48426F09E1100EB454F /* MClassCell.xib */; };
+		9671E48926F09F8500EB454F /* ViewStuTeaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671E48826F09F8500EB454F /* ViewStuTeaVC.swift */; };
+		9671E48C26F380F500EB454F /* StudentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671E48A26F380F400EB454F /* StudentCell.swift */; };
+		9671E48D26F380F500EB454F /* StudentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9671E48B26F380F400EB454F /* StudentCell.xib */; };
+		9671E49126F3848F00EB454F /* TeacherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671E48F26F3848E00EB454F /* TeacherCell.swift */; };
+		9671E49226F3848F00EB454F /* TeacherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9671E49026F3848E00EB454F /* TeacherCell.xib */; };
+		9698739726F7060000833C7F /* StuTeaListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9698739626F7060000833C7F /* StuTeaListVC.swift */; };
+		9698739926F7062300833C7F /* StudentDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9698739826F7062300833C7F /* StudentDetailsVC.swift */; };
+		9698739B26F706F800833C7F /* StudentCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9698739A26F706F700833C7F /* StudentCellModel.swift */; };
+		9698739D26F72A0400833C7F /* ManageClassesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9698739C26F72A0400833C7F /* ManageClassesVC.swift */; };
+		969873A026F72AB100833C7F /* ManageClassesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9698739E26F72AB100833C7F /* ManageClassesCell.swift */; };
+		969873A126F72AB100833C7F /* ManageClassesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9698739F26F72AB100833C7F /* ManageClassesCell.xib */; };
+		D426521F4A417BAECAA8802B /* Pods_SchoolApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38ED88D1927113CF4537DE16 /* Pods_SchoolApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38ED88D1927113CF4537DE16 /* Pods_SchoolApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchoolApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3FBBB657A5918BDE2763AA /* Pods-SchoolApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchoolApp.debug.xcconfig"; path = "Target Support Files/Pods-SchoolApp/Pods-SchoolApp.debug.xcconfig"; sourceTree = "<group>"; };
 		9671E44C26EF442600EB454F /* SchoolApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9671E44F26EF442600EB454F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9671E45126EF442600EB454F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9671E45326EF442600EB454F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9671E45326EF442600EB454F /* StartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartController.swift; sourceTree = "<group>"; };
 		9671E45626EF442600EB454F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9671E45826EF442C00EB454F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9671E45B26EF442C00EB454F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9671E45D26EF442C00EB454F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9671E46426F06B9700EB454F /* UIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIManager.swift; sourceTree = "<group>"; };
+		9671E46726F06C8A00EB454F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		9671E46926F06C9800EB454F /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		9671E46E26F0744500EB454F /* AddLogoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLogoVC.swift; sourceTree = "<group>"; };
+		9671E47226F074A200EB454F /* AddDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDetailsVC.swift; sourceTree = "<group>"; };
+		9671E47426F074AD00EB454F /* AddAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAddressVC.swift; sourceTree = "<group>"; };
+		9671E47626F074D600EB454F /* AddMembersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMembersVC.swift; sourceTree = "<group>"; };
+		9671E47826F0751400EB454F /* SelectProvinceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectProvinceVC.swift; sourceTree = "<group>"; };
+		9671E47A26F0902600EB454F /* HomeScreenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenCell.swift; sourceTree = "<group>"; };
+		9671E47B26F0902600EB454F /* HomeScreenCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScreenCell.xib; sourceTree = "<group>"; };
+		9671E47F26F0914000EB454F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		9671E48126F0936600EB454F /* HomeCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCellModel.swift; sourceTree = "<group>"; };
+		9671E48326F09E1100EB454F /* MClassCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MClassCell.swift; sourceTree = "<group>"; };
+		9671E48426F09E1100EB454F /* MClassCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MClassCell.xib; sourceTree = "<group>"; };
+		9671E48826F09F8500EB454F /* ViewStuTeaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStuTeaVC.swift; sourceTree = "<group>"; };
+		9671E48A26F380F400EB454F /* StudentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCell.swift; sourceTree = "<group>"; };
+		9671E48B26F380F400EB454F /* StudentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentCell.xib; sourceTree = "<group>"; };
+		9671E48F26F3848E00EB454F /* TeacherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherCell.swift; sourceTree = "<group>"; };
+		9671E49026F3848E00EB454F /* TeacherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeacherCell.xib; sourceTree = "<group>"; };
+		9698739626F7060000833C7F /* StuTeaListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuTeaListVC.swift; sourceTree = "<group>"; };
+		9698739826F7062300833C7F /* StudentDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailsVC.swift; sourceTree = "<group>"; };
+		9698739A26F706F700833C7F /* StudentCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCellModel.swift; sourceTree = "<group>"; };
+		9698739C26F72A0400833C7F /* ManageClassesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageClassesVC.swift; sourceTree = "<group>"; };
+		9698739E26F72AB100833C7F /* ManageClassesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageClassesCell.swift; sourceTree = "<group>"; };
+		9698739F26F72AB100833C7F /* ManageClassesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManageClassesCell.xib; sourceTree = "<group>"; };
+		AC3246013C41B569D9D2736A /* Pods-SchoolApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchoolApp.release.xcconfig"; path = "Target Support Files/Pods-SchoolApp/Pods-SchoolApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +85,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D426521F4A417BAECAA8802B /* Pods_SchoolApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52CD24C6175AA4C6EE77BE0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38ED88D1927113CF4537DE16 /* Pods_SchoolApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		803853B12BE575B44467BCD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F3FBBB657A5918BDE2763AA /* Pods-SchoolApp.debug.xcconfig */,
+				AC3246013C41B569D9D2736A /* Pods-SchoolApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9671E44326EF442600EB454F = {
 			isa = PBXGroup;
 			children = (
 				9671E44E26EF442600EB454F /* SchoolApp */,
 				9671E44D26EF442600EB454F /* Products */,
+				803853B12BE575B44467BCD0 /* Pods */,
+				52CD24C6175AA4C6EE77BE0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +130,104 @@
 		9671E44E26EF442600EB454F /* SchoolApp */ = {
 			isa = PBXGroup;
 			children = (
+				9671E46326F06B6B00EB454F /* Model */,
+				9671E46626F06C5900EB454F /* Controllers */,
+				9671E46B26F06CA300EB454F /* Views */,
 				9671E44F26EF442600EB454F /* AppDelegate.swift */,
 				9671E45126EF442600EB454F /* SceneDelegate.swift */,
-				9671E45326EF442600EB454F /* ViewController.swift */,
-				9671E45526EF442600EB454F /* Main.storyboard */,
 				9671E45826EF442C00EB454F /* Assets.xcassets */,
 				9671E45A26EF442C00EB454F /* LaunchScreen.storyboard */,
 				9671E45D26EF442C00EB454F /* Info.plist */,
 			);
 			path = SchoolApp;
+			sourceTree = "<group>";
+		};
+		9671E46326F06B6B00EB454F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9671E46426F06B9700EB454F /* UIManager.swift */,
+				9671E48126F0936600EB454F /* HomeCellModel.swift */,
+				9698739A26F706F700833C7F /* StudentCellModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9671E46626F06C5900EB454F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9671E45326EF442600EB454F /* StartController.swift */,
+				9671E46726F06C8A00EB454F /* LoginVC.swift */,
+				9671E46926F06C9800EB454F /* SignupVC.swift */,
+				9671E46E26F0744500EB454F /* AddLogoVC.swift */,
+				9671E47226F074A200EB454F /* AddDetailsVC.swift */,
+				9671E47426F074AD00EB454F /* AddAddressVC.swift */,
+				9671E47626F074D600EB454F /* AddMembersVC.swift */,
+				9671E47826F0751400EB454F /* SelectProvinceVC.swift */,
+				9671E47F26F0914000EB454F /* HomeVC.swift */,
+				9671E48826F09F8500EB454F /* ViewStuTeaVC.swift */,
+				9698739626F7060000833C7F /* StuTeaListVC.swift */,
+				9698739826F7062300833C7F /* StudentDetailsVC.swift */,
+				9698739C26F72A0400833C7F /* ManageClassesVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9671E46B26F06CA300EB454F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9671E45526EF442600EB454F /* Main.storyboard */,
+				9671E47E26F0904600EB454F /* Home Cell */,
+				9671E48726F09E2000EB454F /* MClassCell */,
+				9671E48E26F3810400EB454F /* Student Cell */,
+				9671E49326F3849E00EB454F /* Teacher Cell */,
+				969873A226F72AB600833C7F /* ManageClassesCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9671E47E26F0904600EB454F /* Home Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9671E47A26F0902600EB454F /* HomeScreenCell.swift */,
+				9671E47B26F0902600EB454F /* HomeScreenCell.xib */,
+			);
+			path = "Home Cell";
+			sourceTree = "<group>";
+		};
+		9671E48726F09E2000EB454F /* MClassCell */ = {
+			isa = PBXGroup;
+			children = (
+				9671E48326F09E1100EB454F /* MClassCell.swift */,
+				9671E48426F09E1100EB454F /* MClassCell.xib */,
+			);
+			path = MClassCell;
+			sourceTree = "<group>";
+		};
+		9671E48E26F3810400EB454F /* Student Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9671E48A26F380F400EB454F /* StudentCell.swift */,
+				9671E48B26F380F400EB454F /* StudentCell.xib */,
+			);
+			path = "Student Cell";
+			sourceTree = "<group>";
+		};
+		9671E49326F3849E00EB454F /* Teacher Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9671E48F26F3848E00EB454F /* TeacherCell.swift */,
+				9671E49026F3848E00EB454F /* TeacherCell.xib */,
+			);
+			path = "Teacher Cell";
+			sourceTree = "<group>";
+		};
+		969873A226F72AB600833C7F /* ManageClassesCell */ = {
+			isa = PBXGroup;
+			children = (
+				9698739E26F72AB100833C7F /* ManageClassesCell.swift */,
+				9698739F26F72AB100833C7F /* ManageClassesCell.xib */,
+			);
+			path = ManageClassesCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9671E46026EF442C00EB454F /* Build configuration list for PBXNativeTarget "SchoolApp" */;
 			buildPhases = (
+				84EEB9B706475725353A3B2A /* [CP] Check Pods Manifest.lock */,
 				9671E44826EF442600EB454F /* Sources */,
 				9671E44926EF442600EB454F /* Frameworks */,
 				9671E44A26EF442600EB454F /* Resources */,
+				E21E793103705F796AF2AEC0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,22 +289,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9671E47D26F0902700EB454F /* HomeScreenCell.xib in Resources */,
+				9671E49226F3848F00EB454F /* TeacherCell.xib in Resources */,
 				9671E45C26EF442C00EB454F /* LaunchScreen.storyboard in Resources */,
 				9671E45926EF442C00EB454F /* Assets.xcassets in Resources */,
 				9671E45726EF442600EB454F /* Main.storyboard in Resources */,
+				969873A126F72AB100833C7F /* ManageClassesCell.xib in Resources */,
+				9671E48626F09E1100EB454F /* MClassCell.xib in Resources */,
+				9671E48D26F380F500EB454F /* StudentCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84EEB9B706475725353A3B2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SchoolApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E21E793103705F796AF2AEC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SchoolApp/Pods-SchoolApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SchoolApp/Pods-SchoolApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SchoolApp/Pods-SchoolApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9671E44826EF442600EB454F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9671E45426EF442600EB454F /* ViewController.swift in Sources */,
+				9671E47726F074D600EB454F /* AddMembersVC.swift in Sources */,
+				9671E46A26F06C9800EB454F /* SignupVC.swift in Sources */,
+				9698739726F7060000833C7F /* StuTeaListVC.swift in Sources */,
+				9671E48C26F380F500EB454F /* StudentCell.swift in Sources */,
+				969873A026F72AB100833C7F /* ManageClassesCell.swift in Sources */,
+				9671E45426EF442600EB454F /* StartController.swift in Sources */,
 				9671E45026EF442600EB454F /* AppDelegate.swift in Sources */,
+				9671E48226F0936600EB454F /* HomeCellModel.swift in Sources */,
+				9671E48526F09E1100EB454F /* MClassCell.swift in Sources */,
+				9698739D26F72A0400833C7F /* ManageClassesVC.swift in Sources */,
+				9671E48026F0914100EB454F /* HomeVC.swift in Sources */,
+				9698739B26F706F800833C7F /* StudentCellModel.swift in Sources */,
+				9671E48926F09F8500EB454F /* ViewStuTeaVC.swift in Sources */,
+				9671E47C26F0902700EB454F /* HomeScreenCell.swift in Sources */,
 				9671E45226EF442600EB454F /* SceneDelegate.swift in Sources */,
+				9671E46526F06B9700EB454F /* UIManager.swift in Sources */,
+				9671E46F26F0744500EB454F /* AddLogoVC.swift in Sources */,
+				9671E46826F06C8A00EB454F /* LoginVC.swift in Sources */,
+				9698739926F7062300833C7F /* StudentDetailsVC.swift in Sources */,
+				9671E47926F0751400EB454F /* SelectProvinceVC.swift in Sources */,
+				9671E47326F074A200EB454F /* AddDetailsVC.swift in Sources */,
+				9671E49126F3848F00EB454F /* TeacherCell.swift in Sources */,
+				9671E47526F074AD00EB454F /* AddAddressVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +515,7 @@
 		};
 		9671E46126EF442C00EB454F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3FBBB657A5918BDE2763AA /* Pods-SchoolApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +529,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaushaltop.SchoolApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9671E46226EF442C00EB454F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC3246013C41B569D9D2736A /* Pods-SchoolApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +549,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaushaltop.SchoolApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

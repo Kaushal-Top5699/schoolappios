@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TeacherCell" customModule="SchoolApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ole-nb-1Lo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="B8L-f4-SIB">
+                                <rect key="frame" x="8" y="10" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="mp4-gh-fhf"/>
+                                    <constraint firstAttribute="width" constant="80" id="rHZ-EJ-bBn"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teacher Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="LQD-XR-oXY">
+                                <rect key="frame" x="96" y="10" width="216" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" red="0.074509803920000006" green="0.039215686270000001" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teacher ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vY-dh-ZaX">
+                                <rect key="frame" x="96" y="35.5" width="216" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.074509803920000006" green="0.039215686270000001" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tecaher Mob No." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Mb-Uu-gtF">
+                                <rect key="frame" x="96" y="58.5" width="216" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.074509803920000006" green="0.039215686270000001" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.94509803920000002" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5Mb-Uu-gtF" firstAttribute="leading" secondItem="B8L-f4-SIB" secondAttribute="trailing" constant="8" id="HvN-xd-0D4"/>
+                            <constraint firstAttribute="trailing" secondItem="LQD-XR-oXY" secondAttribute="trailing" constant="8" id="L9G-HA-T1h"/>
+                            <constraint firstAttribute="trailing" secondItem="5Mb-Uu-gtF" secondAttribute="trailing" constant="8" id="dV0-kj-rjX"/>
+                            <constraint firstItem="B8L-f4-SIB" firstAttribute="centerY" secondItem="Ole-nb-1Lo" secondAttribute="centerY" id="f44-6f-rNy"/>
+                            <constraint firstItem="LQD-XR-oXY" firstAttribute="top" secondItem="Ole-nb-1Lo" secondAttribute="top" constant="10" id="flt-Mt-T3S"/>
+                            <constraint firstItem="LQD-XR-oXY" firstAttribute="leading" secondItem="B8L-f4-SIB" secondAttribute="trailing" constant="8" id="gAe-wN-JwZ"/>
+                            <constraint firstItem="5Mb-Uu-gtF" firstAttribute="top" secondItem="3vY-dh-ZaX" secondAttribute="bottom" constant="5" id="hRt-Nb-1X5"/>
+                            <constraint firstAttribute="trailing" secondItem="3vY-dh-ZaX" secondAttribute="trailing" constant="8" id="ojs-0F-mxZ"/>
+                            <constraint firstItem="B8L-f4-SIB" firstAttribute="leading" secondItem="Ole-nb-1Lo" secondAttribute="leading" constant="8" id="qqW-Aj-k0E"/>
+                            <constraint firstItem="3vY-dh-ZaX" firstAttribute="top" secondItem="LQD-XR-oXY" secondAttribute="bottom" constant="5" id="t3c-Uu-yoZ"/>
+                            <constraint firstItem="3vY-dh-ZaX" firstAttribute="leading" secondItem="B8L-f4-SIB" secondAttribute="trailing" constant="8" id="vp3-ba-x6W"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Ole-nb-1Lo" secondAttribute="trailing" id="399-7m-1Xk"/>
+                    <constraint firstAttribute="bottom" secondItem="Ole-nb-1Lo" secondAttribute="bottom" id="KLB-Gl-dUe"/>
+                    <constraint firstItem="Ole-nb-1Lo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="cwV-3k-7Qp"/>
+                    <constraint firstItem="Ole-nb-1Lo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="o5r-ur-evs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="-13.043478260869566" y="95.758928571428569"/>
+        </tableViewCell>
+    </objects>
+</document>
